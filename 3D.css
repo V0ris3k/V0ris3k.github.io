@@ -6,12 +6,14 @@
     text-decoration: none;
     font-size: 17px;
     transition-duration: 0.5s;
+    vertical-align: middle;
 }
 .navbar {
     background-color: #FFA500;
     overflow: hidden;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: middle;
 }
 .navbar a:hover{
     background-color: #87CEFA;
@@ -20,7 +22,7 @@ body {
     background-color: #333333;
 }
 input[type=text], select { 
-    width: 500px;
+    width: 70%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -30,7 +32,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-    width: 500px;
+    width: 70%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -40,7 +42,7 @@ input[type=submit] {
     cursor: pointer;
 }
 input[type=reset] {
-    width: 500px;
+    width: 70%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -50,7 +52,7 @@ input[type=reset] {
     cursor: pointer;
 }
 .input [type=file] select {
-    width: 500px;
+    width: 70%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
