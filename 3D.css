@@ -2,21 +2,30 @@
     float: left;
     color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
     font-size: 17px;
     transition-duration: 0.5s;
     vertical-align: middle;
+
 }
+
 .navbar {
     background-color: #FFA500;
     overflow: hidden;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     vertical-align: middle;
+    padding-top: 0%;
+    padding-bottom: 0%;
+
 }
+
 .navbar a:hover{
     background-color: #87CEFA;
+    padding: 12px 16px;
+    
+
 }
 body {
     background-color: #333333;
@@ -65,14 +74,14 @@ input[type=reset] {
     text-align: center;
 }
 .b {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     text-decoration: dotted;
     list-style-type: circle;
 }
 .c {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     text-decoration: dotted;
